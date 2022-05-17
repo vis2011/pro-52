@@ -1,0 +1,127 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#75aaff;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    position: sticky;
+    height: 30px;
+    width: 98%;
+    margin-bottom: 20px;
+    border-bottom: 3px solid black;
+}
+
+.nbh{
+    font-size: 4vh;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#ffe1fa;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.margin{
+    padding-left: 10px;
+}
+
+.nbab{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vh;
+    padding-bottom: 10px;
+    border: 0px;
+    margin: 0px;
+}
+
+.nbab:hover{
+    color: #ffe1fa;
+    border-bottom: 3px solid #ffe1fa;
+}
+
+
+button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.top{
+    margin-top:15vh;
+    margin-bottom: 15vh;
+    max-width: 180vh;
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.origami {   
+    border-radius: 20px;
+    background-color: #75aaff;
+    color: rgb(255, 255, 255);
+    width:55vh;
+    margin: 20px;
+    transition: .5s;
+    position: relative;
+    padding-top: 10px;
+    animation: 1.5s heartbeat ease-in-out;
+}
+
+@keyframes heartbeat{
+  0%{
+      transform:rotate(0deg)
+  }
+
+  100%{
+      transform:rotate3d(360 , 360 , 360 , 360deg);
+  }
+}
+
+.aboutus{
+    height: 100vh;
+    padding-left: 40px;
+}
+
+.abh{
+    padding-top: 80px;
+    padding-bottom: 70px;
+    font-size: 10vh;
+    text-shadow: 5px 5px 0px rgb(255, 76, 195);
+}
+
+.origami:hover{
+    background-color: #2478ff;
+    transition: .5s;
+    transform: scale(1.09);
+    animation: none;
+}
+
+
+a:link img{
+    border:  3px solid #ffffff;
+    border-radius: 4px;
+}
+
+a:visited img{
+    border:  3px dashed #111152;
+    border-radius: 4px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
